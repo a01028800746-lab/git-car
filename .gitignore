@@ -1,0 +1,31 @@
+# This repository lives inside a full SimOne installation.
+# Track only reviewed team sources; never bulk-upload vendor software or data.
+/*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/SimOneAPI/
+/SimOneAPI/*
+!/SimOneAPI/lib/
+/SimOneAPI/lib/*
+!/SimOneAPI/lib/Win64/
+/SimOneAPI/lib/Win64/*
+
+# Team algorithms, evaluation adapter, environment helpers and launchers.
+!/SimOneAPI/lib/Win64/AutoDrive.py
+!/SimOneAPI/lib/Win64/ParkingAPA.py
+!/SimOneAPI/lib/Win64/TestDrive.py
+!/SimOneAPI/lib/Win64/SimOneEvaluationAPI.py
+!/SimOneAPI/lib/Win64/run_algorithm.py
+!/SimOneAPI/lib/Win64/environment_check.py
+!/SimOneAPI/lib/Win64/sitecustomize.py
+!/SimOneAPI/lib/Win64/README_PYTHON_SETUP.md
+!/SimOneAPI/lib/Win64/StartNEVCALL.bat
+!/SimOneAPI/lib/Win64/KillNEVCALL.bat
+!/SimOneAPI/lib/Win64/StartAPA.bat
+!/SimOneAPI/lib/Win64/StopAPA.bat
+!/SimOneAPI/lib/Win64/startLKA.bat
+!/SimOneAPI/lib/Win64/KillLKA.bat
+!/SimOneAPI/lib/Win64/StartTest.bat
+!/SimOneAPI/lib/Win64/StartPythonAlgorithm.bat
+!/SimOneAPI/lib/Win64/KillPythonAlgorithm.bat
